@@ -1,0 +1,3 @@
+Un squelette tient encore un morceau de papier entre ses doigts :
+
+  "J'ai tapé rm -rf sans réfléchir... ne fais pas comme moi."

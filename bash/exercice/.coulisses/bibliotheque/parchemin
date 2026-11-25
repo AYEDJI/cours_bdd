@@ -1,0 +1,34 @@
+=====================================================
+            SALLE 5 - LA BIBLIOTHÈQUE
+=====================================================
+
+Des milliers de livres... et un vieux gardien qui garde
+la porte suivante. Il ne parle qu'aux sorciers qui
+maîtrisent les VARIABLES D'ENVIRONNEMENT.
+
+Pour t'échauffer, affiche quelques variables du système :
+    echo $HOME      ton dossier personnel
+    echo $USER      ton nom d'utilisateur
+    echo $PATH      les dossiers où sont rangées les commandes
+
+-----------------------------------------------------
+TA MISSION
+-----------------------------------------------------
+1. Le gardien veut que tu lances le sortilège "lumiere".
+   Crée une variable SORTILEGE contenant la valeur lumiere
+   et rends-la accessible aux programmes avec export :
+       export SORTILEGE=lumiere
+
+   Vérifie-la :
+       echo $SORTILEGE
+
+   Puis parle au gardien :
+       bash gardien.sh
+
+   Remarque : essaie d'abord SANS export (SORTILEGE=lumiere)
+   et observe la réaction du gardien. Sans export, la
+   variable reste dans ton terminal et le script lancé ne
+   la voit pas !
+
+2. Le gardien te donnera ensuite une dernière consigne...
+   Tu auras besoin de la commande unset.

@@ -1,0 +1,35 @@
+=====================================================
+           SALLE 7 - LA SALLE DU TRÉSOR
+=====================================================
+
+Le voilà : le coffre légendaire ! Il est protégé par un
+mécanisme ancien (coffre.sh) qui ne s'ouvre que pour
+ceux qui savent écrire et exécuter un SCRIPT BASH.
+
+-----------------------------------------------------
+TA MISSION
+-----------------------------------------------------
+1. Essaie d'ouvrir le coffre directement :
+       ./coffre.sh
+   Ça ne marche pas ? Normal : le fichier n'a pas le droit
+   d'être exécuté. Regarde ses droits avec ls -l, puis
+   rends-le exécutable :
+       chmod +x coffre.sh
+
+2. Le coffre réclame une formule magique. Écris-la dans
+   ton propre script, nommé ouvrir.sh :
+       vim ouvrir.sh
+
+   Le script doit contenir exactement ces 2 lignes :
+       #!/bin/bash
+       echo "Sesame, ouvre-toi"
+
+   La première ligne (le shebang) indique quel programme
+   doit lire le script.
+
+3. Teste ton script des deux manières vues en cours :
+       bash ouvrir.sh
+       ./ouvrir.sh        (il faudra aussi faire chmod +x ouvrir.sh)
+
+4. Ouvre enfin le coffre :
+       ./coffre.sh

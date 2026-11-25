@@ -1,0 +1,32 @@
+=====================================================
+              SALLE 3 - LA TRAPPE
+=====================================================
+
+Bravo, tu as trouvé le passage caché !
+
+Tu es au bord d'un gouffre. De l'autre côté, une porte.
+Pour traverser, tu dois CONSTRUIRE un pont.
+
+-----------------------------------------------------
+TA MISSION
+-----------------------------------------------------
+Construis cette structure ici même :
+
+    pont/
+     |-- planche1          (fichier)
+     |-- planche2          (fichier)
+     |-- piliers/          (dossier)
+          |-- gauche/      (dossier)
+          |-- droit/       (dossier)
+
+Commandes utiles :
+    mkdir dossier            crée un dossier
+    mkdir -p a/b/c           crée aussi les dossiers parents manquants
+    touch fichier            crée un fichier vide
+
+Astuce : mkdir accepte plusieurs noms à la fois.
+
+Quand ton pont est prêt, lance la vérification :
+    bash verifier.sh
+
+Si tout est correct, une nouvelle salle apparaîtra ici.

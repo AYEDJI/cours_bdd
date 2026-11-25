@@ -1,0 +1,27 @@
+=====================================================
+                SALLE 2 - LE HALL
+=====================================================
+
+Te voilà dans un grand hall poussiéreux.
+Tu te sens un peu perdu... Où es-tu exactement ?
+
+La commande pwd (Print Working Directory) affiche le
+chemin complet de l'endroit où tu te trouves :
+    pwd
+
+Regarde aussi les objets de la salle en détail
+(droits, taille, date) avec :
+    ls -l
+
+-----------------------------------------------------
+TA MISSION
+-----------------------------------------------------
+Ce hall semble ne mener nulle part... Pourtant, une
+rumeur parle d'une TRAPPE secrète.
+
+Sous Linux, les fichiers et dossiers dont le nom commence
+par un point "." sont CACHÉS : un simple ls ne les montre
+pas. Pour tout voir, il faut l'option -a (all) :
+    ls -a
+
+Trouve la trappe et descends-y avec cd.

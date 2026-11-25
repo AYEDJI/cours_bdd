@@ -1,0 +1,27 @@
+=====================================================
+        SALLE 1 - L'ENTRÉE DU DONJON
+=====================================================
+
+Bienvenue, aventurier !
+
+Tu viens de lire ton premier parchemin avec la commande :
+    cat parchemin
+
+Dans ce donjon, chaque DOSSIER est une salle et chaque
+FICHIER est un objet que tu peux examiner.
+
+Pour voir ce qui se trouve autour de toi, utilise :
+    ls
+
+Pour entrer dans une salle (un dossier) :
+    cd nom_de_la_salle
+
+Pour revenir dans la salle précédente (le dossier parent) :
+    cd ..
+
+-----------------------------------------------------
+TA MISSION
+-----------------------------------------------------
+Deux passages s'ouvrent devant toi. L'un d'eux est un
+cul-de-sac. Explore-les, lis leurs parchemins, et trouve
+le chemin qui s'enfonce dans le donjon.

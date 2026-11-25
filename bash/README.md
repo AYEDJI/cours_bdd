@@ -12,6 +12,7 @@ Bienvenue dans ce module d’introduction au shell Bash. Ce cours est composé d
 | [variable_env.md](./variable_env.md) | Variables d’environnement, `export`, `echo`, `unset` |
 | [vim.md](./vim.md) | Prise en main de l’éditeur `vim` |
 | [xecute_bash_script.md](./xecute_bash_script.md) | Écriture et exécution de scripts Bash |
+| [exercice/](./exercice/README.md) | Mini-jeu « Le Donjon du Shell » pour réviser tout le cours |
 
 ---
 

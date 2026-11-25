@@ -1,0 +1,43 @@
+=====================================================
+             SALLE 6 - LE SCRIPTORIUM
+=====================================================
+
+C'est ici que les moines copient les grimoires.
+L'un d'eux, grimoire.txt, est maudit : il plonge la salle
+dans la nuit éternelle. Tu dois le corriger avec VIM.
+
+Ouvre-le :
+    vim grimoire.txt
+
+Rappels vim :
+    i / a / o     passer en mode insertion
+    Esc           revenir en mode normal
+    j / k         descendre / monter
+    gg / G        début / fin du fichier
+    dd            supprimer la ligne du curseur
+    u             annuler
+    :w  :q  :wq   sauvegarder / quitter / les deux
+    :q!           quitter SANS sauvegarder (si tu t'es perdu)
+
+-----------------------------------------------------
+TA MISSION
+-----------------------------------------------------
+1. Remplace TOUS les mots "nuit" par "jour" en une seule
+   commande (mode normal, tape) :
+       :%s/nuit/jour/g
+
+2. Place-toi sur la ligne qui contient MALEDICTION et
+   supprime-la avec dd.
+
+3. Va à la fin du fichier (G), ajoute une nouvelle ligne
+   en dessous (o) et écris :
+       Je maitrise vim
+   puis appuie sur Esc.
+
+4. Sauvegarde et quitte : :wq
+
+Puis vérifie ton travail :
+    bash verifier.sh
+
+Tu as tout cassé ? Pas de panique : bash verifier.sh --reparer
+remet le grimoire d'origine.

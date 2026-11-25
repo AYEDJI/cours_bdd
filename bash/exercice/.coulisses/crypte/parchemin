@@ -1,0 +1,30 @@
+=====================================================
+              SALLE 4 - LA CRYPTE
+=====================================================
+
+Il fait froid et humide. Des araignées grouillent partout,
+et une immense toile bloque le passage vers la suite.
+
+Regarde autour de toi :
+    ls
+
+-----------------------------------------------------
+TA MISSION
+-----------------------------------------------------
+1. Débarrasse-toi de TOUTES les araignées (les fichiers
+   araignee*.log). Le joker * permet de les viser toutes
+   d'un coup :
+       rm *.log
+
+2. Détruis la toile. C'est un DOSSIER qui contient des
+   fichiers : rm seul ne suffit pas, il faut l'option
+   -r (récursif) :
+       rm -r toile
+
+3. ATTENTION : ne touche pas au squelette (squelette.txt) !
+   C'est un ancien aventurier, respecte-le. Souviens-toi :
+   avec rm, il n'y a PAS de corbeille, la suppression est
+   définitive.
+
+Quand la salle est nettoyée :
+    bash verifier.sh
